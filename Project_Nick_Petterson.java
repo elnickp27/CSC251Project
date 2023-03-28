@@ -33,14 +33,14 @@ public class Project_Nick_Petterson
       
       
       System.out.println("\nPolicy Number: " + examplePolicy.getPolicyNumber());
-      System.out.println("\nProvider Name: " + examplePolicy.getProviderName());
-      System.out.println("\nPolicyholder's First Name: " + examplePolicy.getPolicyHolderFirstName());
-      System.out.println("\nPolicyholder's Last Name: " + examplePolicy.getPolicyHolderLastName());
-      System.out.println("\nPolicyholder's Age: " + examplePolicy.getPolicyHolderAge());
-      System.out.println("\nPolicyholder's Smoking Status: " + examplePolicy.getPolicyHolderSmokingStatus());
-      System.out.println("\nPolicyholder's Height: " + examplePolicy.getPolicyHolderHeight());
-      System.out.println("\nPolicyholder's Weight: " + examplePolicy.getPolicyHolderWeight());
-      System.out.println("\nPolicyholder's BMI: " + examplePolicy.getPolicyHolderBMI());
-      System.out.println("\nPolicyholder's Price: $" + examplePolicy.getPolicyPrice());
+      System.out.print("\nProvider Name: " + examplePolicy.getProviderName());
+      System.out.print("\nPolicyholder's First Name: " + examplePolicy.getPolicyHolderFirstName());
+      System.out.print("\nPolicyholder's Last Name: " + examplePolicy.getPolicyHolderLastName());
+      System.out.print("\nPolicyholder's Age: " + examplePolicy.getPolicyHolderAge());
+      System.out.print("\nPolicyholder's Smoking Status: " + examplePolicy.getPolicyHolderSmokingStatus());
+      System.out.print("\nPolicyholder's Height: " + examplePolicy.getPolicyHolderHeight());
+      System.out.print("\nPolicyholder's Weight: " + examplePolicy.getPolicyHolderWeight());
+      System.out.printf("\nPolicyholder's BMI: %.2f", examplePolicy.getPolicyHolderBMI());
+      System.out.printf("\nPolicyholder's Price: $%,.2f" + examplePolicy.getPolicyPrice());
    }
 }
