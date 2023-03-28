@@ -41,6 +41,6 @@ public class Project_Nick_Petterson
       System.out.print("\nPolicyholder's Height: " + examplePolicy.getPolicyHolderHeight());
       System.out.print("\nPolicyholder's Weight: " + examplePolicy.getPolicyHolderWeight());
       System.out.printf("\nPolicyholder's BMI: %.2f", examplePolicy.getPolicyHolderBMI());
-      System.out.printf("\nPolicyholder's Price: $%,.2f" + examplePolicy.getPolicyPrice());
+      System.out.printf("\nPolicyholder's Price: $%,.2f", examplePolicy.getPolicyPrice());
    }
 }
